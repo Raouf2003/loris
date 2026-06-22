@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+motor
+pydantic
+pydantic-settings
+PyJWT
+bcrypt
+python-multipart
+python-dotenv
+insightface
+opencv-python
+openpyxl
+numpy
+onnxruntime
+fpdf2
+pytz

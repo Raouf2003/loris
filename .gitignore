@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+models/
+*.onnx
+*.pth
+*.bin
+.env
+insightface_models/
