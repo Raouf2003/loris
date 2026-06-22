@@ -5,7 +5,7 @@ from insightface.app import FaceAnalysis
 import base64
 
 app = FaceAnalysis(name="buffalo_l", root="./insightface_models", providers=["CPUExecutionProvider"])
-app.prepare(ctx_id=-1, det_size=(640, 640))
+app.prepare(ctx_id=-1, det_size=(320, 320))
 
 def _decode_image(image_data: str) -> np.ndarray:
     raw = base64.b64decode(image_data)
